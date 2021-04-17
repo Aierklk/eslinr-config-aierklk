@@ -1,6 +1,6 @@
 {
   "name": "eslinr-config-aierklk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "own eslint config",
   "main": "index.js",
   "scripts": {
