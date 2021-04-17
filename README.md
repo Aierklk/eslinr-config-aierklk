@@ -1,2 +1,2 @@
-# eslinr-config-aierklk
+# eslint-config-aierklk
 own eslint config
