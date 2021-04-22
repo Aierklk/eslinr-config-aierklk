@@ -179,7 +179,7 @@ module.exports = {
         /**
          * 强制在花括号中使用一致的空格
          */
-        'object-curly-spacing': [2, 'never'],
+        'object-curly-spacing': [2, 'always'],
         /**
          * 要求使用尾拖逗号
          */
