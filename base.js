@@ -49,7 +49,9 @@ module.exports = {
         /**
          * 缩进数, 四个空格
          */
-        'indent': [2, 4],
+        'indent': [2, 4, {
+            SwitchCase: 1,
+        }],
         /**
          * 逗号后面需要使用空格
          */
@@ -192,5 +194,16 @@ module.exports = {
          * 要求圆括号内没有空格
          */
         'space-in-parens': [2, 'never'],
+        /**
+         * switch冒号空格
+         */
+        'switch-colon-spacing': [2, {
+            after: true,
+            before: false,
+        }],
+        /**
+         * 禁止case语句落空
+         */
+        'no-fallthrough': [2],
     },
 }
