@@ -4,6 +4,9 @@
   "description": "own eslint config",
   "main": "index.js",
   "scripts": {
+    "patch": "npm version patch",
+    "minor": "npm version minor",
+    "major": "npm version major",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
