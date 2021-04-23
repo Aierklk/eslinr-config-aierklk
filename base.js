@@ -206,10 +206,6 @@ module.exports = {
          */
         'no-fallthrough': [2],
         /**
-         * 使用模板字符串进行字符串拼接
-         */
-        'prefer-template': [1],
-        /**
          * 多行注释统一风格
          */
         'multiline-comment-style': [2, 'starred-block'],
