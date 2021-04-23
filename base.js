@@ -7,7 +7,7 @@ module.exports = {
         ecmaFeatures: {
             // 不允许 return 语句出现在 global 环境下
             globalReturn: false,
-            // 开启全局 script 模式
+            // 开启全局 Strict 模式
             impliedStrict: true,
             jsx: true,
         },
