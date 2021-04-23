@@ -68,16 +68,16 @@ module.exports = {
          */
         'no-var': [2],
         /**
-		 * 必须使用 === 或 !==，禁止使用 == 或 !=
-		 */
+         * 必须使用 === 或 !==，禁止使用 == 或 !=
+         */
         'eqeqeq': [2, 'always'],
         /**
          * 禁止使用eval
          */
         'no-eval': [2],
         /**
-		 * 箭头函数体必须由大括号包裹
-		 */
+         * 箭头函数体必须由大括号包裹
+         */
         'arrow-body-style': [2, 'always'],
         /**
          * 大括号风格
@@ -205,5 +205,32 @@ module.exports = {
          * 禁止case语句落空
          */
         'no-fallthrough': [2],
+        /**
+         * 使用模板字符串进行字符串拼接
+         */
+        'prefer-template': [2],
+        /**
+         * 多行注释统一风格
+         */
+        'multiline-comment-style': [2, 'starred-block'],
+        /**
+         * 禁止使用 \ 生成多行字符串
+         */
+        'no-multi-str': [2],
+        /**
+         * 对象字面量属性名称使用引号一致性
+         * @description 如果有属性名称要求使用引号，则所有的属性名称都要使用引号；否则，禁止所有的属性名称使用引号
+         */
+        'quote-props': [2, 'consistent-as-needed'],
+        /**
+         * 要求在语句之间添加空格
+         */
+        'padding-line-between-statements': [2, 
+            { blankLine: 'always', prev: '*', next: 'return' },
+        ],
+        /**
+         * 要求使用一致的换行风格
+         */
+        'operator-linebreak': [2, 'after'],
     },
 }
