@@ -206,10 +206,6 @@ module.exports = {
          */
         'no-fallthrough': [2],
         /**
-         * 多行注释统一风格
-         */
-        'multiline-comment-style': [2, 'starred-block'],
-        /**
          * 禁止使用 \ 生成多行字符串
          */
         'no-multi-str': [2],
