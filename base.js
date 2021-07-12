@@ -215,12 +215,6 @@ module.exports = {
          */
         'quote-props': [2, 'consistent-as-needed'],
         /**
-         * 要求在语句之间添加空格
-         */
-        'padding-line-between-statements': [2, 
-            { blankLine: 'always', prev: '*', next: 'return' },
-        ],
-        /**
          * 要求使用一致的换行风格
          */
         'operator-linebreak': [2, 'after'],
