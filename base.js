@@ -51,6 +51,7 @@ module.exports = {
          */
         'indent': [2, 4, {
             SwitchCase: 1,
+            ignoreComments: true,
         }],
         /**
          * 逗号后面需要使用空格
