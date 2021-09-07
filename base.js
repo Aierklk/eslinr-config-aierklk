@@ -219,5 +219,9 @@ module.exports = {
          * 要求使用一致的换行风格
          */
         'operator-linebreak': [2, 'after'],
+        /**
+         * 要求块内填充
+         */
+        'padded-blocks': [2, 'always']
     },
 }
